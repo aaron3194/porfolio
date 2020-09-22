@@ -1,0 +1,376 @@
+header{
+  
+margin:0 auto;
+width: 100%;
+display:block;
+display: flex;
+height:800px;
+} 
+.containerheader{
+  
+  margin:0 auto;
+  width: 100%;
+  display:block;
+  background: rgb(0,46,62);
+  background: linear-gradient(180deg, rgb(0, 13, 17) 10%, rgba(0,0,0,0.8) 45%, rgba(0, 0, 0, 0.8) 100%);
+  height:800px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 12px 15px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 12px 15px rgba(0,0,0,0);
+
+  } 
+  .btn {
+    background-color: rgb(0,46,62);
+    border: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    margin:0 auto;
+    display: block;
+    border-radius: 3px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(1, 58, 77);
+  }
+
+.headerrow:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.headerrow{
+  width:100%px;
+  max-width:1280px;
+    margin: 0 auto;
+padding: 20px;
+height:100%;   
+
+}
+
+ header nav{
+
+  padding:20px;
+  display:inline-block;
+ 
+  
+
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+nav a{
+  color :#ffffff;  
+margin-left:10px;
+font-weight:lighter;
+}
+header a:hover{
+ 
+
+  color:#4a6f8e;
+ 
+  
+}
+
+
+header a:active{
+
+  color:white;  
+ 
+  
+}
+
+a{
+
+    text-decoration: none;
+}
+
+header i{
+
+
+    font-size:20px;
+    font-weight: bolder;
+  
+  
+}
+
+
+header p{
+    color:white;
+    }
+
+.logo{
+height:50px;
+width:auto;
+margin-top: 2px;
+    resize: auto;
+    float:left;
+    display:block;
+} 
+
+  .w3-column {
+        float: left;
+        width: 33.33%;
+text-align: center;  
+      }
+      .w4-column {
+        float: left;
+        width: 100%;
+text-align: center;  
+      }
+     
+      .hrow {
+    width:1280px;
+      margin:  auto;
+      padding: 20px;
+
+      }
+    
+   
+      .container-row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.clear-float{
+    clear: both;
+}
+
+header .fa {
+ 
+margin-top:10px;
+  float:right;
+      padding: 10px;
+     width:40px;
+     text-align: center;
+     text-decoration: none;
+    border-radius:50%;
+       margin-left: 5px;
+   }
+
+   header .fa-facebook:hover {
+     opacity:1;
+     background:#4e72a9;
+     color:white;
+   }
+
+   header .fa-twitter:hover {
+      opacity: 1;
+      background:#26b8eb;
+      color: white
+    }
+    header .fa-instagram:hover {
+      opacity: 1;
+      background:#272827;
+      color:white;
+      
+    }
+   header .fa-facebook {
+    background: #ffffff;;
+    color:   #272827;
+  
+   }
+
+   header .fa-twitter {
+    background: #ffffff;;
+    color:   #272827;
+   }
+   header .fa-instagram {
+    background: #ffffff;;
+    color:   #272827;
+   }
+
+  
+
+@media screen and (max-width: 1280px) {
+    
+
+  header .fa {
+ 
+      float:none;
+          margin: 0 auto;
+        padding: 0 auto;
+      
+       }
+
+       .w22-column {
+        float:left;
+            width: 100%;
+      text-align: center; 
+      
+      
+      }
+  .w3-column {
+   
+      width:100%;
+     margin:0 auto;
+   text-align:center;
+   
+    }
+    .row {
+      width:100%;
+        margin: 0 auto;
+        padding: 20px;
+  
+        }
+       .logo
+       {
+float:none;
+    margin: 0 auto;
+        resize:auto;
+          height:40px;
+  
+          }
+        
+            
+            
+        
+              nav{
+            
+                display:inline-block;
+           
+             margin:0 auto;
+        padding: 0 auto;      
+                }
+            
+            }
+        
+            @media screen and (max-width: 900px) {
+    
+
+              .fa {
+             
+                  float:none;
+                      margin: 0 auto;
+                    padding: 0 auto;
+                  
+                   }
+            
+            
+              .w3-column {
+               
+                  width:100%;
+                 margin:0 auto;
+               text-align:center;
+               
+                }
+                .row {
+                  width:100%;
+                    margin: 0 auto;
+                    padding: 20px;
+              
+                    }
+                   .logo
+                   {
+            float:none;
+                margin: 0 auto;
+                    resize:auto;
+                      height:40px;
+              
+                      }
+                    
+                        
+                        
+                    
+                          nav{
+                        
+                            display:inline-block;
+                       
+                         margin:0 auto;
+                    padding: 0 auto;      
+                            }
+                        
+                        }
+                    
+
+              
+                        @media screen and (max-width: 500px) {
+    
+
+                          .fa {
+                         
+                              float:none;
+                                  margin: 0 auto;
+                                padding: 0 auto;
+                              
+                               }
+                        
+                        
+                          .w3-column {
+                           
+                              width:100%;
+                             margin:0 auto;
+                           text-align:center;
+                           
+                            }
+                            .row {
+                              width:100%;
+                                margin: 0 auto;
+                                padding: 20px;
+                          
+                                }
+                               .logo
+                               {
+                        float:none;
+                            margin: 0 auto;
+                                resize:auto;
+                                  height:40px;
+                          
+                                  }
+                                
+                                    
+                                  @media screen and (max-width: 400px) {
+    
+
+                                    .fa {
+                                   
+                                        float:none;
+                                            margin: 0 auto;
+                                          padding: 0 auto;
+                                        
+                                         }
+                                  
+                                  
+                                    .w3-column {
+                                     
+                                        width:100%;
+                                       margin:0 auto;
+                                     text-align:center;
+                                     
+                                      }
+                                      .row {
+                                        width:100%;
+                                          margin: 0 auto;
+                                          padding: 20px;
+                                    
+                                          }
+                                         .logo
+                                         {
+                                  float:none;
+                                      margin: 0 auto;
+                                          resize:auto;
+                                            height:40px;
+                                            padding: 0 auto;
+                                    
+                                            }
+                                          
+                                              
+                                
+                                      nav{
+                                    
+                                        display:inline-block;
+                                   
+                                     margin:0 auto;
+                                padding: 0px;      
+
+                                        }
+                                    
+                                    }
+                                
+            
+                                  }     
+

@@ -1,0 +1,48 @@
+.container-section{
+
+height:auto;
+margin:0 auto;
+width: 100%;
+overflow: hidden;
+display: block;
+padding: 20px;
+
+}
+.section-columnleft {
+    float: left;
+    width: 60%;
+ padding:50px 0px 50px 0px;
+display: block;
+ margin: 0 auto;
+ height: 100%;
+  }
+  .section-columnright {
+    margin: 0 auto;
+    padding: 40px;
+    float: left;
+    width: 40%;
+    height: 100%;
+ display: block;
+
+  }
+  .section-row {
+width:1280px;
+display: block;
+  margin: 0 auto;
+height: 600px;
+
+padding: 20px;
+
+  }
+  .img1{
+
+    display: block;
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #193d6a;
+    position: relative;
+    box-shadow: 3px 3px #cccccc;
+    margin-bottom: 20px;
+  }
+  

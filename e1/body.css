@@ -1,0 +1,94 @@
+html {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #000000;
+}
+
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    display: block;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: red;
+    display: block;
+    margin-top: 30vh;
+    background-image: url(ops.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #cccccc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    width: 800px;
+    max-width: 800px;
+    background-image: url(ops.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: block;
+    border: 1px 1px 1px 1px #ffffff;
+    height: 300px;
+}
+
+.w2-column {
+    float: left;
+    height: inherit;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    background-color: #ffff45;
+    margin-top: 230px;
+    margin-left: 100px;
+    border: none;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    border-radius: 50px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.btn:hover {
+    background-color: #c8c200;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        width: 800px;
+        max-width: 800px;
+        background-image: url(ops2.jpg);
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        margin: 0 auto;
+        display: block;
+        border: 1px 1px 1px 1px #ffffff;
+        height: 300px;
+    }
+}
